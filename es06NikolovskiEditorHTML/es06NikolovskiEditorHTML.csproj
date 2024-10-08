@@ -46,16 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmEditorHTML.cs">
+    <Compile Include="..\..\..\..\..\Desktop\frmEditorHTML.cs">
       <SubType>Form</SubType>
+      <Link>frmEditorHTML.cs</Link>
     </Compile>
-    <Compile Include="frmEditorHTML.Designer.cs">
+    <Compile Include="..\..\..\..\..\Desktop\frmEditorHTML.Designer.cs">
       <DependentUpon>frmEditorHTML.cs</DependentUpon>
+      <Link>frmEditorHTML.Designer.cs</Link>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmEditorHTML.resx">
+    <EmbeddedResource Include="..\..\..\..\..\Desktop\frmEditorHTML.resx">
       <DependentUpon>frmEditorHTML.cs</DependentUpon>
+      <Link>frmEditorHTML.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
